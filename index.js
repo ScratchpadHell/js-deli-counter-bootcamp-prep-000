@@ -17,7 +17,7 @@ function nowServing(line) {
    if (line.length === 0) {
      return "The line is currently empty."
    }
-   const namesAndNumbers = [];
+   const namesAndNumbers = []
    for (i = 0, l = line.length; i < l; i++) {
      namesAndNumbers.push(`${[i + 1]}. ${line[i]}`)
     } 
