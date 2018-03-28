@@ -16,7 +16,7 @@ function nowServing(line) {
  function currentLine(line) {
    const namesAndNumbers = [];
    for (i = 0, l = line.length; i < l; i++) {
-     
+     namesAndNumbers.push()
      return `The line is currently:
    }
  
