@@ -18,7 +18,7 @@ function nowServing(line) {
      return "The line is currently empty."
    }
    const namesAndNumbers = []
-   for (i = 0, l = line.length; i < l; i++) {
+   for (let i = 0, l = line.length; i < l; i++) {
      namesAndNumbers.push(`${i + 1}. ${line[i]}`)
     } 
     return `The line is currently: ${namesAndNumbers.join(', ')}`
